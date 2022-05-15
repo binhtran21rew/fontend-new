@@ -1,0 +1,106 @@
+@media (min-width: 740px) and (max-width:1024px) {
+    .col-third{
+        width: 30.3333% !important;
+    }
+    .content .content-section{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 64px 32px;
+    }
+    .place-list {
+        margin-top: 32px;
+        margin-bottom: 48px;
+        width: 105%;
+    }
+    .modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.6);
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        padding: 0 12px;
+        display: none;
+    }
+    .modal-container {
+        background: #fff;
+        min-height: 470px;
+        width: 70%;
+        position: relative;
+        animation: modalFade ease 0.8s;
+    }
+   
+}
+@media (min-width:741px) {
+    #nav .menu-bar-search{
+        display: none;
+    }
+}
+@media (max-width:740px) {
+    #header{
+        overflow: hidden;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a:hover{
+        color: #000;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 45px;
+    }
+    #nav .search-button{
+        display: none;
+    }
+    #nav >li{
+        display: block;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #nav .menu-bar-search:hover {
+        background-color: #fff;
+       color: #000;
+    }
+    #nav > li:hover > a,#nav .subnav li:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+    .content .member-iphone{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .content .member-img {
+        width: 60%;
+    }
+    .text-content{
+        display: none;
+    }
+    .content .content-decrip{
+        margin: 0 26px;
+    }
+    .tick-list{
+        margin: 0 26px;
+    }
+    .place-list-iphone{
+        width: 84%;
+        margin: 0 26px;
+    }
+    .contact-iphone{
+        margin: 0 26px;
+    }
+    .contact-list-iphone{
+        
+        width: 100%;
+    }
+    .col-iphone{
+        width: 100%;
+    }
+}
